@@ -1,6 +1,6 @@
 # Grog: The World's Most Ribbiting AI
 
-![A ribbiting image from Grog](assets/img/frog.png)
+<p align="center"><img src="assets/img/logo.png" alt="Grog Logo" width="150"></p>
 
 In an era dominated by the AI arms race, where tech giants pour billions into Large Language Models with ever-increasing parameter counts, one question has been tragically overlooked: *but what if frogs?*
 
