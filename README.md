@@ -10,7 +10,7 @@ This is not just another LLM. This is an ALM (Amphibious Language Model). Traine
 
 ---
 
-### 🚀 Features
+### Features
 
 *   **State-of-the-Art Text Generation:** Grog can generate a variable, and often contextually irrelevant, number of "ribbits" for any given prompt.
 *   **Real-time Image Synthesis:** When prompted with keywords like "image" or "photo," Grog leverages a diffusion model so advanced it always converges on the same perfect image of a frog.
@@ -19,7 +19,7 @@ This is not just another LLM. This is an ALM (Amphibious Language Model). Traine
 *   **Dark Mode Native:** Because all serious AI research happens in the dark.
 *   **Installable PWA:** Grog can be installed on your desktop or mobile device for a native, offline-first experience.
 
-### 🛠️ How to Run
+### How to Run
 
 Running this next-generation AI requires a highly specialized setup.
 
@@ -35,7 +35,7 @@ Running this next-generation AI requires a highly specialized setup.
 2.  Open `index.html` in a web browser.
 3.  Prepare to have your mind blown.
 
-### 🗺️ Roadmap / TODO
+### Roadmap / TODO
 
 While Grog is already near-perfect, we believe in continuous improvement. Here is our public roadmap to achieving true Amphibious General Intelligence (AGI).
 
@@ -46,7 +46,7 @@ While Grog is already near-perfect, we believe in continuous improvement. Here i
 -   [ ] **API Access:** Develop a REST API so other applications can leverage Grog's powerful intelligence. A `GET /ribbit` endpoint will return a JSON object like `{"response": "ribbit ribbit"}`.
 -   [ ] **Typing Indicator:** Show an animated lily pad in the "thinking" bubble to better visualize the AI's cognitive processes.
 
-### 📜 License
+### License
 
 This project is open-source and available under the MIT License. Feel free to fork, modify, and distribute it as you see fit. Just don't try to pass it off as a real LLM, unless you're trying to be funny.
 
