@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grog</title>
+    <meta name="description" content="The world's most ribbiting AI.">
+    <meta name="author" content="John Greenfield">
+    <meta name="language" content="en-gb">
+    <meta name="rating" content="general">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Grog">
+    <meta name="theme-color" content="#004d40"/>
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1><img src="assets/img/logo.png" alt="Grog logo" class="header-logo">Grog</h1>
+            <p>The world's most ribbiting AI.</p>
+        </header>
+        <main class="chat-container" id="chat-container">
+            <!-- Chat messages will be dynamically added here by JavaScript -->
+        </main>
+        <footer>
+            <form id="prompt-form" class="prompt-form">
+                <textarea id="prompt-input" placeholder="Ask Grog anything..." rows="1"></textarea>
+                <button type="submit" aria-label="Send prompt">➤</button>
+            </form>
+        </footer>
+    </div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js').then(registration => {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, err => {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
