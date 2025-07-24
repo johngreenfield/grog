@@ -52,4 +52,4 @@ This project is open-source and available under the MIT License. Feel free to fo
 
 ---
 
-*Disclaimer: Grog is a parody and not a real AI. It does not connect to any external services. Please do not ask it for financial advice.*
+*Disclaimer: Grog is parody and not a real AI. It does not connect to any external services. Please do not ask it for financial advice.*
