@@ -3,7 +3,7 @@
 <p align="center"><img src="assets/img/logo.png" alt="Grog Logo" width="150"></p>
 
 <p align="center">
-  <a href="https://grog.chat" target="_blank"><strong>🐸 Try the Live Demo! 🐸</strong></a>
+  <a href="https://grog.chat"><strong>🐸 Try the Live Demo! 🐸</strong></a>
 </p>
 
 In an era dominated by the AI arms race, where tech giants pour billions into Large Language Models with ever-increasing parameter counts, one question has been tragically overlooked: *but what if frogs?*
